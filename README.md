@@ -1,2 +1,90 @@
-# agencydesk-skills-construction
-AgencyDesk Skills by L&amp;M Consulting — clerical AI agent skill sample for small businesses and industries. Full packs at landmconsultinginc.com/ai-skills
+<p align="center">
+  <img src="https://geeduzbsatvodnlijqfs.supabase.co/storage/v1/object/public/product-media/c059e319-ea19-4aff-9b6c-39797f90a2b4/96ca3398-8334-47d8-9495-d689be62c7f3/logo-1795646923370-0.webp" alt="AgencyDesk Construction" width="180" height="180" />
+</p>
+
+# AgencyDesk Skills — Construction (Free Sample)
+
+[![skills.sh](https://skills.sh/b/LandrewConsulting/agencydesk-skills-construction)](https://skills.sh/LandrewConsulting/agencydesk-skills-construction)
+[![Get the full Construction pack](https://img.shields.io/badge/AgencyDesk_Skills-Get_the_full_Construction_pack-28aaaa)](https://landmconsultinginc.com/ai-skills/)
+[![Agensi Listing](https://img.shields.io/badge/Agensi-Bid_Leveling_Scope_Gap-0c182c)](https://agensi.io/skills/bid-leveling-scope-gap)
+[![License: MIT](https://img.shields.io/badge/License-MIT-e8a83c)](./LICENSE)
+
+Clerical AI agent skills by **AgencyDesk Skills** (L&M Consulting Inc.). This repository hosts a single free sample from the 7-skill AgencyDesk Construction pack: **`bid-leveling-scope-gap` (Bid Leveling Scope Gap)** (public free-sample distribution accepted).
+
+Skills follow the open [Agent Skills](https://agentskills.io/) specification. Get the full 7-skill Construction bundle at the [AgencyDesk Skills Store](https://landmconsultinginc.com/ai-skills/).
+
+## Available Skill
+
+### `bid-leveling-scope-gap` — Bid Leveling Scope Gap
+
+Compares one or more subcontractor bid proposals against the project scope of work or specifications and outputs a structured clerical review draft:
+
+- **Document & bidder identification:** identifies the scope document, each bidder, trade, date, and revision, flagging missing trade or project labels up front.
+- **Side-by-side scope matrix:** compares required work items across bidders with section/page citations on both the scope side and each bid side.
+- **Distinct bidder statuses:** separates `Included`, `Excluded`, `Partial`, `Qualified`, `Not listed in [named bid]`, and `Unclear — unreadable or ambiguous` without guessing missing scope.
+- **Flagged for review & neutral questions:** highlights exclusions, qualifications, and unaddressed scope items and drafts up to five neutral fact-gathering questions for bidders.
+
+## Installation
+
+Install with the [skills CLI](https://skills.sh/docs/cli):
+
+```bash
+npx skills add LandrewConsulting/agencydesk-skills-construction
+```
+
+Or target a specific agent (for example Claude Code or Cursor):
+
+```bash
+npx skills add LandrewConsulting/agencydesk-skills-construction --skill bid-leveling-scope-gap -a claude-code
+```
+
+> [!TIP]
+> This is a free sample from AgencyDesk Skills. Get the full Construction bundle and more skills for small businesses and industries at the [AgencyDesk Skills Store](https://landmconsultinginc.com/ai-skills/).
+
+## Example Prompt
+
+```text
+Compare Bid A and Bid B against Section 03 30 00 of the attached project scope. List what each bid includes, excludes, qualifies, or omits, with citations.
+```
+
+## What This Skill Does NOT Do (Clerical Only)
+
+This skill is strictly a clerical document-comparison tool for internal company use under qualified review:
+
+- Does **not** recommend which subcontractor bid to award or negotiate, or label a bid "best bid," "lowest qualified," or "compliant."
+- Does **not** state that any bid or scope is complete, incomplete, or adequate, or resolve conflicting revisions.
+- Does **not** interpret the commercial or legal effect of exclusions, allowances, or bidder qualifications.
+- Does **not** perform engineering, estimating judgment, or contract administration, and must **not** be used as a bidder- or client-facing chatbot.
+- Every output begins with `Internal use only — Draft for review by a qualified estimator or project manager` and requires verification against source documents before any reliance or external use.
+
+## Supported Agents
+
+Compatible with AI agents that support the [Agent Skills](https://agentskills.io/) specification, including **Claude Code**, **Cursor**, **Codex**, **OpenCode**, **Windsurf**, **Cline**, **GitHub Copilot**, **Gemini CLI**, **Roo Code**, and [70+ others](https://github.com/vercel-labs/skills/blob/main/docs/agents.md).
+
+## Skill Structure
+
+```text
+skills.sh.json
+skills/
+  bid-leveling-scope-gap/
+    SKILL.md
+    references/
+      glossary.md
+```
+
+## Links
+
+- **AgencyDesk Skills Store (full 7-skill Construction pack & more):** [https://landmconsultinginc.com/ai-skills/](https://landmconsultinginc.com/ai-skills/)
+- **Agensi Listing (`bid-leveling-scope-gap`):** [https://agensi.io/skills/bid-leveling-scope-gap](https://agensi.io/skills/bid-leveling-scope-gap)
+
+## License
+
+This repository is licensed under the [MIT License](./LICENSE). Skills are provided "as is" without warranty; outputs are clerical drafts only and require review by a qualified estimator or project manager before reliance or external use.
+
+---
+
+### More AgencyDesk Skills
+
+Looking for the full 7-skill Construction pack or more skills for small businesses and industries? Explore all packs at **[landmconsultinginc.com/ai-skills](https://landmconsultinginc.com/ai-skills/)**.
+
+Published by L&M Consulting.
