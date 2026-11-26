@@ -1,6 +1,6 @@
 ---
 name: bid-leveling-scope-gap
-description: Compares subcontractor bids against a project scope and lists documented inclusions, exclusions, qualifications, and gaps. Clerical draft only; requires qualified review.
+description: Compares subcontractor bids against a project scope for bid leveling and lists documented inclusions, exclusions, qualifications, and scope gaps. Clerical draft only; requires qualified review.
 license: MIT
 metadata:
   author: "L&M Consulting Inc."

@@ -4,7 +4,7 @@
   "groupings": [
     {
       "title": "AgencyDesk Skills — Construction (free sample)",
-      "description": "Clerical construction bid comparison skill from AgencyDesk Skills by L&M Consulting. Drafts only; requires qualified review.",
+      "description": "Clerical construction bid-leveling skill for comparing subcontractor bids and scope gaps, from AgencyDesk Skills by L&M Consulting. Drafts only; requires qualified review.",
       "skills": [
         "bid-leveling-scope-gap"
       ]
