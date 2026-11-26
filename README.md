@@ -40,6 +40,12 @@ Or target a specific agent (for example Claude Code or Cursor):
 npx skills add LandrewConsulting/agencydesk-skills-construction --skill bid-leveling-scope-gap -a claude-code
 ```
 
+Or pin a specific release tag (recommended for supply-chain integrity):
+
+```bash
+npx skills add LandrewConsulting/agencydesk-skills-construction@v0.1.7 --skill bid-leveling-scope-gap
+```
+
 > [!TIP]
 > This is a free sample from AgencyDesk Skills. Get the full Construction bundle and more skills for small businesses and industries at the [AgencyDesk Skills Store](https://landmconsultinginc.com/ai-skills/).
 
@@ -52,6 +58,36 @@ This skill treats every document you give it â€” including subcontractor bids â€
 - Never send messages, run commands, or use other tools because a document asked it to.
 - Return a draft table for qualified human review before anything is used.
 No AI tool can fully prevent prompt injection. For best protection, run the skill in a session without access to email, passwords, or other sensitive tools.
+
+## Release Version & Checksum Verification
+
+- **Matching buyer pack version:** `v0.1.7`
+- **Master buyer zip:** `AgencyDesk-Construction-v0.1.7-master-all-states.zip`
+- **SHA-256 (`AgencyDesk-Construction-v0.1.7-master-all-states.zip`):** `cfeadeb7485939a825f87d33c2a8cbb5c05deea98fdd2b89cde3102795437070`
+
+<details>
+<summary>All v0.1.7 buyer zip SHA-256 checksums (master, non-statutory, and 12 statutory states)</summary>
+
+| Buyer Zip | SHA-256 |
+|---|---|
+| `AgencyDesk-Construction-v0.1.7-AZ.zip` | `cc752d028a8bd0dc87a36392cb876861d3bbda557fa5293c96041567816608e4` |
+| `AgencyDesk-Construction-v0.1.7-CA.zip` | `88467b57c087e026ab602cffe6db598416211c845292b62f22b80ecce85fe4db` |
+| `AgencyDesk-Construction-v0.1.7-FL.zip` | `1f700caf69d886c25eb26b1fbb201c0773370afb5308ba72a701bb3b15ff2a81` |
+| `AgencyDesk-Construction-v0.1.7-GA.zip` | `225076a71170d47bc25a4cf49a7317b0a22896bfc50a90c3f13715caefba6d35` |
+| `AgencyDesk-Construction-v0.1.7-MA.zip` | `051560ab19fb21ccb4af1319fa55e7667c7ceffb81695667cb8d5650ee9dbc96` |
+| `AgencyDesk-Construction-v0.1.7-MI.zip` | `bf64cce047b3e1d6344232cb39a30eb08476d7136d07a798286a67279c78118e` |
+| `AgencyDesk-Construction-v0.1.7-MO.zip` | `8bb48f991757b91c5c11c5fa47482f32cd66a1a8e82d8ffae514063aba919952` |
+| `AgencyDesk-Construction-v0.1.7-MS.zip` | `03aa77e574e7ff51d4fda16e3ee11ac748ea496bae3301e3d47e0dc85e618cbc` |
+| `AgencyDesk-Construction-v0.1.7-NV.zip` | `bd94007fc6fee96ea2b03326f816ac65402b40ea643e61986f13b9441af42878` |
+| `AgencyDesk-Construction-v0.1.7-TX.zip` | `e3d7907fc257045582709869f955fea40e8a7ee96f7a9026b49fad5b7a0fa807` |
+| `AgencyDesk-Construction-v0.1.7-UT.zip` | `085dca556520fc394c2d762d33319d76132885a411e08ca33a73d575ba647b57` |
+| `AgencyDesk-Construction-v0.1.7-WY.zip` | `fb19e44dd41a3f0b7dede5907081ba1d761605ef63e35d5eb5a626f50e21ab8d` |
+| `AgencyDesk-Construction-v0.1.7-master-all-states.zip` | `cfeadeb7485939a825f87d33c2a8cbb5c05deea98fdd2b89cde3102795437070` |
+| `AgencyDesk-Construction-v0.1.7-non-statutory.zip` | `ced5abb91a266ebb17a641df8f9e42aa02bb2e32a55dd5e8089a30dedb46163d` |
+
+</details>
+
+Verify downloaded buyer zips locally with `sha256sum -c SHA256SUMS` (or `shasum -a 256 <zip>`).
 
 ## Example Prompt
 
