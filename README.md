@@ -125,6 +125,10 @@ skills/
 - **AgencyDesk Skills Store (full 7-skill Construction pack & more):** [https://landmconsultinginc.com/ai-skills/](https://landmconsultinginc.com/ai-skills/)
 - **Agensi Listing (`bid-leveling-scope-gap`):** [https://agensi.io/skills/bid-leveling-scope-gap](https://agensi.io/skills/bid-leveling-scope-gap)
 
+## Support
+
+Issues are turned off for this repository. To report a bug or ask a question, email support@landmconsultinginc.com.
+
 ## License
 
 This repository is licensed under the [MIT License](./LICENSE). Skills are provided "as is" without warranty; outputs are clerical drafts only and require review by a qualified estimator or project manager before reliance or external use.
